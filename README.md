@@ -1,12 +1,11 @@
 # Time-Series-Augmentation
 We developed a convolutional variational autoencoder (CVAE) to efficiently augment the time series of extratropical cyclone severity measures (wind speed and flood elevation). 
 As a generative model, the developed CVAE learns the probability distribution of latent features (here, low-dimensional underlying characteristics of the time series) as a multivariate normal distribution. 
-The augmented severity measure time series are then obtained in two steps: 
-1) randomly sampling data from the learned multivariate normal distribution, and
-2) using the randomly sampled data as the input to the decoder of the trained CVAE to generate severity measures.
+The augmented severity measure time series are then obtained in two steps: 1) randomly sampling data from the learned multivariate normal distribution, and 2) using the randomly sampled data as the input to the decoder of the trained CVAE to generate severity measures.
 
 The develoepd CVAE is not limited to augmenting the time series of extratropical cyclone’s wind speeds and flood elevations, it can also be applied to augment any time series data (one-dimensional or multidimensional), which would be benefit from augmentation. 
-   
+<br/><br/>
+
 For more information, please refer to the following:\
 Jia, Y., and Sasani, M. (2025). "Convolutional Variational Autoencoder for Northeast US Coastal Wind and Flood Hazard Data Augmentation", In Review (will be available after this paper is published). 
 <br/><br/>
@@ -20,4 +19,4 @@ The **Model** folder includes the *codes* to perform the developed CVAE and a *s
 The **Example** folder includes the *codes*, *data*, and an *instruction* to reproduce the GM selection presented in Section 4.1 of the above-mentioned paper.
 <br/><br/>
 
-Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and Matlab R2023b (Curve Fitting Toolbox, Econometrics Toolbox, and Sensor Fusion and Tracking Toolbox required). The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or Matlab may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
+Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and Matlab R2023b. The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or Matlab may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
