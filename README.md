@@ -10,7 +10,7 @@ For more information, please refer to the following:\
 Jia, Y., and Sasani, M. (2025). "Convolutional Variational Autoencoder for Northeast US Coastal Wind and Flood Hazard Data Augmentation", In Review (will be available after this paper is published). 
 <br/><br/>
 
-As **prerequisites**, users need to have basic knowledge in machine learning or deep learning and have access to run Python and Matlab codes.
+As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and Matlab codes.
 
 To **download** the codes, please navigate to the main page of this repository, click the green **Code** button, and in the menu that appears, click **Download ZIP**. 
 
