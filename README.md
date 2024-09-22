@@ -8,7 +8,7 @@ The develoepd CVAE is not limited to augmenting the time series of extratropical
 
 For more information, please refer to the following manuscript:
 "Convolutional Variational Autoencoder for Northeast US Coastal Wind and Flood Hazard Data Augmentation".
-
+<br/><br/>
 
 As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and Matlab codes.
 
