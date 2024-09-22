@@ -15,7 +15,5 @@ The **Model** folder includes the *codes* to perform the developed CVAE for time
 
 The **Example** folder includes the *codes*, *data*, and an *instruction* to reproduce the augmentation for the time series of extratropical cyclone severity measures presented in Section 3.1 of the above-mentioned paper.
 <br/>
-Note that the files with size larger than 25 MB (Aug_TimeSeries.mat in Example folder and Aug.dat in Example/Data_Lat4_Epoch50000_Aug folder Aug.dat) cannot be directly downloaded using **Download ZIP**. The authors recommend download these files manually by clicking on these files, select "Download raw file" from the top right menu bar, and move the downloaded files to the corresponding folders.
-<br/><br/>
 
 Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and Matlab R2023b. The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or Matlab may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
