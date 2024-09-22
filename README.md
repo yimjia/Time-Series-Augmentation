@@ -12,7 +12,7 @@ For more information, please refer to the following manuscript:
 
 As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and Matlab codes.
 
-To **download** the codes, please navigate to the main page of this repository, click the green **Code** button, and in the menu that appears, click **Download ZIP**. 
+To **download** the codes, please navigate to the main page of this repository. From the top menu, click on **Download Repository**. 
 
 The **Model** folder includes the *codes* to perform the developed CVAE for time series augmentation and a *step-by-step instruction*. 
 
