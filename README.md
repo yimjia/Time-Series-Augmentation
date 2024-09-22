@@ -6,6 +6,9 @@ The augmented severity measure time series are then obtained in two steps: 1) ra
 The develoepd CVAE is not limited to augmenting the time series of extratropical cyclone’s wind speeds and flood elevations, it can also be applied to augment any time series data (one-dimensional or multidimensional), which would be benefit from augmentation. 
 <br/><br/>
 
+For more information, please refer to the following manuscript:
+"Convolutional Variational Autoencoder for Northeast US Coastal Wind and Flood Hazard Data Augmentation".
+
 
 As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and Matlab codes.
 
