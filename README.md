@@ -17,6 +17,6 @@ To **download** the codes, please navigate to the main page of this repository. 
 The **Model** folder includes the *codes* to perform the developed CVAE for time series augmentation and a *step-by-step instruction*. 
 
 The **Example** folder includes the *codes*, *data*, and an *instruction* to reproduce the augmentation for the time series of extratropical cyclone severity measures presented in Section 3.1 of the above-mentioned paper.
-<br/>
+<br/><br/>
 
 Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and Matlab R2023b. The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or Matlab may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
