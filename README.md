@@ -10,7 +10,7 @@ For more information, please refer to the following:\
 Jia, Y., and Sasani, M. (2025). "Convolutional Variational Autoencoder for Northeast US Coastal Wind and Flood Hazard Data Augmentation", *Neural Computing and Applications*.
 <br/><br/>
 
-As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and Matlab codes.
+As **prerequisites**, users need to have basic knowledge of machine learning or deep learning and have access to run Python and MATLAB codes.
 
 To **download** the codes, please navigate to the main page of this repository. From the top menu, click on **Download Repository**. 
 
@@ -19,4 +19,4 @@ The **Model** folder includes the *codes* to perform the developed CVAE for time
 The **Example** folder includes the *codes*, *data*, and an *instruction* to reproduce the augmentation for the time series of extratropical cyclone severity measures presented in Section 3.1 of the above-mentioned paper.
 <br/><br/>
 
-Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and Matlab R2023b. The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or Matlab may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
+Note that the codes were run on Python 3.10.14 (TensorFlow 2.13.1 required) and MATLAB R2023b. The authors recommend running the Python codes on Jupyter Notebook. Running the codes on different versions of Python, TensorFlow, or MATLAB may result in compatibility issues. However, most compatibility issues can be resolved by following the suggestions in the error messages.
